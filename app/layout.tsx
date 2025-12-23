@@ -18,24 +18,8 @@ export const metadata: Metadata = {
   title: "Abdulbasit Abidogun - STR Manager & Guest Experience Specialist",
   description:
     "Maximizing Property Yield Through 5-Star Guest Experiences. Helping landlords and real estate investors manage apartments for 5-star guest satisfaction and revenue growth.",
-  generator: "v0.app",
-  icons: {
-    icon: [
-      {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
-      },
-    ],
-    apple: "/apple-icon.png",
-  },
+  // Removed generator: "v0.app" 
+  // All v0 icon links have been removed below 
 }
 
 export default function RootLayout({
